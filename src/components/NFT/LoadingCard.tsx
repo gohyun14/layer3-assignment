@@ -1,5 +1,3 @@
-import React from "react";
-
 const LoadingCard = () => {
   return (
     <div className="group rounded-lg bg-gray-800 bg-opacity-80 p-1 shadow-lg hover:cursor-pointer hover:shadow-xl">

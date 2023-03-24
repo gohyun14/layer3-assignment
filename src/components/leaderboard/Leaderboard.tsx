@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
-import { type UserType } from "~/pages/index";
 import { LayoutGroup, motion } from "framer-motion";
 import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
+import { type UserType } from "~/pages/index";
 
 import UserItem from "./UserItem";
 

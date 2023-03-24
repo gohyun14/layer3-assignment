@@ -1,14 +1,14 @@
 import {
-  ArrowRightCircleIcon,
   ArrowLeftCircleIcon,
-  FireIcon,
+  ArrowRightCircleIcon,
   CurrencyDollarIcon,
-  PlusCircleIcon,
+  FireIcon,
   MinusCircleIcon,
+  PlusCircleIcon,
 } from "@heroicons/react/24/outline";
 import { motion } from "framer-motion";
-import { type TransactionType } from "~/utils/etherscan";
 import { useRouter } from "next/router";
+import { type TransactionType } from "~/utils/etherscan";
 import { formatAddress } from "~/utils/formatters";
 
 type TransactionItemProps = {

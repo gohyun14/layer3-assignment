@@ -1,8 +1,7 @@
-import { ArrowUpRightIcon } from "@heroicons/react/24/outline";
+import { ArrowUpRightIcon, NoSymbolIcon } from "@heroicons/react/24/outline";
 import { type OwnedNft } from "alchemy-sdk";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { NoSymbolIcon } from "@heroicons/react/24/outline";
 
 import Modal from "~/components/UI/Modal";
 

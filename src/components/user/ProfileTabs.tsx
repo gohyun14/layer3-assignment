@@ -1,6 +1,6 @@
-import { useState } from "react";
 import { Tab } from "@headlessui/react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
+import { useState } from "react";
 
 import NFTList from "../NFT/NFTList";
 import TransactionList from "./TransactionList";

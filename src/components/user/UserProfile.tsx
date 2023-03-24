@@ -1,10 +1,8 @@
-import React from "react";
-import { type UserType } from "~/pages/index";
 import { FireIcon } from "@heroicons/react/24/outline";
-import { formatXP } from "~/utils/formatters";
-import { formatAddress } from "~/utils/formatters";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { type UserType } from "~/pages/index";
+import { formatAddress, formatXP } from "~/utils/formatters";
 
 import ProfileTabs from "./ProfileTabs";
 

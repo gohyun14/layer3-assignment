@@ -1,6 +1,6 @@
+import { NoSymbolIcon } from "@heroicons/react/24/outline";
 import { type OwnedNft } from "alchemy-sdk";
 import { useState } from "react";
-import { NoSymbolIcon } from "@heroicons/react/24/outline";
 
 type NFTCardProps = {
   nft: OwnedNft;

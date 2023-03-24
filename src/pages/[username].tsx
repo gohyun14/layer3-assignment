@@ -1,12 +1,12 @@
+import { ArrowLeftIcon } from "@heroicons/react/24/outline";
 import { useIsFetching, useQueryClient } from "@tanstack/react-query";
+import { motion } from "framer-motion";
 import { type NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { getUserData, type UserType } from "~/pages/index";
-import { motion } from "framer-motion";
-import Link from "next/link";
-import { ArrowLeftIcon } from "@heroicons/react/24/outline";
 
 import UserProfile from "~/components/user/UserProfile";
 

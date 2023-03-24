@@ -1,7 +1,6 @@
-import React from "react";
-import { getAllTransactions, getStandardTransactions } from "~/utils/etherscan";
-import { LayoutGroup, motion } from "framer-motion";
 import { useQuery } from "@tanstack/react-query";
+import { LayoutGroup, motion } from "framer-motion";
+import { getAllTransactions } from "~/utils/etherscan";
 
 import TransactionItem from "./TransactionItem";
 

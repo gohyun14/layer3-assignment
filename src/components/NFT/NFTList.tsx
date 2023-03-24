@@ -1,15 +1,12 @@
-import { useState } from "react";
-import { type OwnedNft } from "alchemy-sdk";
-import { AnimatePresence } from "framer-motion";
-import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
-import Link from "next/link";
-import { Alchemy, Network, NftFilters } from "alchemy-sdk";
 import { useQuery } from "@tanstack/react-query";
+import { Alchemy, Network, NftFilters, type OwnedNft } from "alchemy-sdk";
+import { AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
+import { useState } from "react";
 
+import LoadingCard from "./LoadingCard";
 import NFTCard from "./NFTCard";
 import NFTModal from "./NFTModal";
-import LoadingCard from "./LoadingCard";
 
 const settings = {
   apiKey: process.env.NEXT_PUBLIC_ALCHEMY_API_KEY,
