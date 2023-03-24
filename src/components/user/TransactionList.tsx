@@ -14,10 +14,7 @@ const TransactionList = ({ address }: TransactionListProps) => {
     queryKey: ["getAllTransactions"],
     queryFn: () => getAllTransactions(address),
     refetchOnWindowFocus: false,
-    // enabled: !!assetsData && assetsData.length > 0,
   });
-
-  console.log(transactionData);
 
   return (
     <div>
